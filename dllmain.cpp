@@ -127,7 +127,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	switch (ul_reason_for_call)
 	{
         case DLL_PROCESS_ATTACH: {
-            emu::log_init("d3demu.logKA");
+            emu::log_init("d3demu.log");
             emu::DirectDrawEmu::patch_game();
 
             instance = hModule;
