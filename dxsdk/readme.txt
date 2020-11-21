@@ -1,0 +1,1 @@
+Put the include and lib directories from the DirectX7 SDK to this directory.

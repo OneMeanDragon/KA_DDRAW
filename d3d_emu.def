@@ -1,0 +1,7 @@
+EXPORTS
+DirectDrawCreate=DirectDrawCreateEmu
+DirectDrawCreateEx=DirectDrawCreateExEmu
+DirectDrawEnumerateExA=DirectDrawEnumerateExAEmu
+DirectDrawCreateClipper=DirectDrawCreateClipperEmu
+DirectDrawEnumerateA=DirectDrawEnumerateEmuA
+

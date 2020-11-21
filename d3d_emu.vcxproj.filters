@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ddraw">
+      <UniqueIdentifier>{493ebdd5-3a6f-4098-b44e-deba6271d516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{aa9db929-1ea9-4dfd-bad2-43ecbd8a7e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hw">
+      <UniqueIdentifier>{01d9d60a-b49e-4ef0-98be-5f2c56cc42bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hw\dx9">
+      <UniqueIdentifier>{9fd78bdc-70de-49ea-a377-46f0fd2a01bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ddraw7">
+      <UniqueIdentifier>{96cacd5c-d3be-4fa6-b9c6-bafcfd0554f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ddraw">
+      <UniqueIdentifier>{1f23f3ce-0576-46ca-9e11-5f0e189389df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helpers">
+      <UniqueIdentifier>{f9574062-af71-488b-83f1-a5867e1030fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hw">
+      <UniqueIdentifier>{bfc9b52d-92d7-4b50-8693-17b18387094e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hw\dx9">
+      <UniqueIdentifier>{9cfa7340-d63b-439a-ae65-cddc0d113420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ddraw7">
+      <UniqueIdentifier>{4e1db515-199f-43d1-8c2c-43dd79e41507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3d_emu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\ddraw_emu.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\execute_buffer_emu.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\material_emu.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\structure_log.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\surface_emu.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\viewport_emu.cpp">
+      <Filter>Source Files\ddraw</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\config.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\log.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\dx9\dx9_hw_layer.cpp">
+      <Filter>Source Files\hw\dx9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d3d_emu.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d_emu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\ddraw_emu.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\execute_buffer_emu.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\material_emu.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\structure_log.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\surface_emu.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\viewport_emu.h">
+      <Filter>Header Files\ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\common.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\config.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\interface.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\log.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\hw_layer.h">
+      <Filter>Header Files\hw</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\dx9\dx9_hw_layer.h">
+      <Filter>Header Files\hw\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw7\ddraw7_emu.h">
+      <Filter>Header Files\ddraw7</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d3d_emu.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
